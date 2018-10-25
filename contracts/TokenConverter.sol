@@ -1,13 +1,13 @@
 pragma solidity 0.4.24;
 
-import "https://raw.githubusercontent.com/bancorprotocol/contracts/master/solidity/contracts/converter/BancorConverter.sol";
-import "https://raw.githubusercontent.com/bancorprotocol/contracts/master/solidity/contracts/token/ERC20Token.sol";
-import "https://raw.githubusercontent.com/bancorprotocol/contracts/master/solidity/contracts/token/EtherToken.sol";
-import "https://raw.githubusercontent.com/bancorprotocol/contracts/master/solidity/contracts/token/interfaces/IERC20Token.sol";
+import "bancor-contracts/solidity/contracts/converter/BancorConverter.sol";
+import "bancor-contracts/solidity/contracts/token/ERC20Token.sol";
+import "bancor-contracts/solidity/contracts/token/EtherToken.sol";
+import "bancor-contracts/solidity/contracts/token/interfaces/IERC20Token.sol";
 
 ///@title A contract for converting any token into MYB (using Bancor's API)
 ///@author Vlad Silviu Farcas
-contract TokenConversion {
+contract TokenConverter {
 
     address bancorConverterAddress;   
     address myBitTokenContractAddress;
