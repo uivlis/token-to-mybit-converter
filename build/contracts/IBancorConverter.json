@@ -228,7 +228,7 @@
         "id": 2195,
         "nodeType": "ImportDirective",
         "scope": 2281,
-        "sourceUnit": 2956,
+        "sourceUnit": 3170,
         "src": "25:48:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -239,7 +239,7 @@
         "id": 2196,
         "nodeType": "ImportDirective",
         "scope": 2281,
-        "sourceUnit": 3430,
+        "sourceUnit": 3644,
         "src": "74:49:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -281,7 +281,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -289,10 +289,10 @@
                     "id": 2197,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "213:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -309,7 +309,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -317,10 +317,10 @@
                     "id": 2199,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "237:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -446,7 +446,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -454,10 +454,10 @@
                     "id": 2210,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "337:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -474,7 +474,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -482,10 +482,10 @@
                     "id": 2212,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "361:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -623,7 +623,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IWhitelist_$3429",
+                    "typeIdentifier": "t_contract$_IWhitelist_$3643",
                     "typeString": "contract IWhitelist"
                   },
                   "typeName": {
@@ -631,10 +631,10 @@
                     "id": 2224,
                     "name": "IWhitelist",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 3429,
+                    "referencedDeclaration": 3643,
                     "src": "502:10:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IWhitelist_$3429",
+                      "typeIdentifier": "t_contract$_IWhitelist_$3643",
                       "typeString": "contract IWhitelist"
                     }
                   },
@@ -946,7 +946,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -954,10 +954,10 @@
                     "id": 2253,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "723:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1113,7 +1113,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -1121,10 +1121,10 @@
                     "id": 2267,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "910:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1141,7 +1141,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -1149,10 +1149,10 @@
                     "id": 2269,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "934:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1288,7 +1288,7 @@
         "id": 2195,
         "nodeType": "ImportDirective",
         "scope": 2281,
-        "sourceUnit": 2956,
+        "sourceUnit": 3170,
         "src": "25:48:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1299,7 +1299,7 @@
         "id": 2196,
         "nodeType": "ImportDirective",
         "scope": 2281,
-        "sourceUnit": 3430,
+        "sourceUnit": 3644,
         "src": "74:49:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1341,7 +1341,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -1349,10 +1349,10 @@
                     "id": 2197,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "213:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1369,7 +1369,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -1377,10 +1377,10 @@
                     "id": 2199,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "237:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1506,7 +1506,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -1514,10 +1514,10 @@
                     "id": 2210,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "337:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1534,7 +1534,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -1542,10 +1542,10 @@
                     "id": 2212,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "361:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -1683,7 +1683,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IWhitelist_$3429",
+                    "typeIdentifier": "t_contract$_IWhitelist_$3643",
                     "typeString": "contract IWhitelist"
                   },
                   "typeName": {
@@ -1691,10 +1691,10 @@
                     "id": 2224,
                     "name": "IWhitelist",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 3429,
+                    "referencedDeclaration": 3643,
                     "src": "502:10:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IWhitelist_$3429",
+                      "typeIdentifier": "t_contract$_IWhitelist_$3643",
                       "typeString": "contract IWhitelist"
                     }
                   },
@@ -2006,7 +2006,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -2014,10 +2014,10 @@
                     "id": 2253,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "723:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -2173,7 +2173,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -2181,10 +2181,10 @@
                     "id": 2267,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "910:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -2201,7 +2201,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                    "typeIdentifier": "t_contract$_IERC20Token_$3169",
                     "typeString": "contract IERC20Token"
                   },
                   "typeName": {
@@ -2209,10 +2209,10 @@
                     "id": 2269,
                     "name": "IERC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2955,
+                    "referencedDeclaration": 3169,
                     "src": "934:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC20Token_$2955",
+                      "typeIdentifier": "t_contract$_IERC20Token_$3169",
                       "typeString": "contract IERC20Token"
                     }
                   },
@@ -2327,5 +2327,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-25T17:55:37.283Z"
+  "updatedAt": "2018-10-26T06:31:15.300Z"
 }

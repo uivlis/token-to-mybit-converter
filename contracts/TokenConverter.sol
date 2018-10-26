@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 import "bancor-contracts/solidity/contracts/converter/BancorConverter.sol";
-import "bancor-contracts/solidity/contracts/token/ERC20Token.sol";
+import "bancor-contracts/solidity/contracts/token/SmartToken.sol";
 import "bancor-contracts/solidity/contracts/token/EtherToken.sol";
 import "bancor-contracts/solidity/contracts/token/interfaces/IERC20Token.sol";
 
@@ -33,10 +33,10 @@ contract TokenConverter {
         uint _minimumReturn
         ) external payable{
         IERC20Token token;
-        ERC20Token myBit = ERC20Token(myBitTokenContractAddress);
+        SmartToken myBit = SmartToken(myBitTokenContractAddress);
         uint amount = _amount;
         if (msg.value == 0){
-            token = ERC20Token(_token);
+            token = SmartToken(_token);
             token.transferFrom(msg.sender, this, amount);
             token.approve(bancorConverterAddress, amount); 
         } else {
