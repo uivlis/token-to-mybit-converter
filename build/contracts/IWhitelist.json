@@ -31,14 +31,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/IWhitelist.sol",
     "exportedSymbols": {
       "IWhitelist": [
-        2841
+        2827
       ]
     },
-    "id": 2842,
+    "id": 2828,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2833,
+        "id": 2819,
         "literals": [
           "solidity",
           "^",
@@ -54,9 +54,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 2841,
+        "id": 2827,
         "linearizedBaseContracts": [
-          2841
+          2827
         ],
         "name": "IWhitelist",
         "nodeType": "ContractDefinition",
@@ -64,7 +64,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2840,
+            "id": 2826,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -72,15 +72,15 @@
             "name": "isWhitelisted",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2836,
+              "id": 2822,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2835,
+                  "id": 2821,
                   "name": "_address",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2840,
+                  "scope": 2826,
                   "src": "105:16:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -89,7 +89,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2834,
+                    "id": 2820,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "105:7:21",
@@ -106,15 +106,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2839,
+              "id": 2825,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2838,
+                  "id": 2824,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2840,
+                  "scope": 2826,
                   "src": "144:4:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -123,7 +123,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2837,
+                    "id": 2823,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "144:4:21",
@@ -138,14 +138,14 @@
               ],
               "src": "143:6:21"
             },
-            "scope": 2841,
+            "scope": 2827,
             "src": "82:68:21",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2842,
+        "scope": 2828,
         "src": "56:96:21"
       }
     ],
@@ -155,14 +155,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/IWhitelist.sol",
     "exportedSymbols": {
       "IWhitelist": [
-        2841
+        2827
       ]
     },
-    "id": 2842,
+    "id": 2828,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2833,
+        "id": 2819,
         "literals": [
           "solidity",
           "^",
@@ -178,9 +178,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 2841,
+        "id": 2827,
         "linearizedBaseContracts": [
-          2841
+          2827
         ],
         "name": "IWhitelist",
         "nodeType": "ContractDefinition",
@@ -188,7 +188,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2840,
+            "id": 2826,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -196,15 +196,15 @@
             "name": "isWhitelisted",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2836,
+              "id": 2822,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2835,
+                  "id": 2821,
                   "name": "_address",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2840,
+                  "scope": 2826,
                   "src": "105:16:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -213,7 +213,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2834,
+                    "id": 2820,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "105:7:21",
@@ -230,15 +230,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2839,
+              "id": 2825,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2838,
+                  "id": 2824,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2840,
+                  "scope": 2826,
                   "src": "144:4:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -247,7 +247,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2837,
+                    "id": 2823,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "144:4:21",
@@ -262,14 +262,14 @@
               ],
               "src": "143:6:21"
             },
-            "scope": 2841,
+            "scope": 2827,
             "src": "82:68:21",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2842,
+        "scope": 2828,
         "src": "56:96:21"
       }
     ],
@@ -281,5 +281,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-28T10:14:50.595Z"
+  "updatedAt": "2018-10-28T10:49:53.204Z"
 }

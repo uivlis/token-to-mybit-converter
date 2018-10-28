@@ -26,14 +26,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/FeatureIds.sol",
     "exportedSymbols": {
       "FeatureIds": [
-        1515
+        1501
       ]
     },
-    "id": 1516,
+    "id": 1502,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1509,
+        "id": 1495,
         "literals": [
           "solidity",
           "^",
@@ -49,19 +49,19 @@
         "contractKind": "contract",
         "documentation": "Id definitions for bancor contract features\nCan be used to query the ContractFeatures contract to check whether a certain feature is supported by a contract",
         "fullyImplemented": true,
-        "id": 1515,
+        "id": 1501,
         "linearizedBaseContracts": [
-          1515
+          1501
         ],
         "name": "FeatureIds",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": true,
-            "id": 1514,
+            "id": 1500,
             "name": "CONVERTER_CONVERSION_WHITELIST",
             "nodeType": "VariableDeclaration",
-            "scope": 1515,
+            "scope": 1501,
             "src": "251:63:3",
             "stateVariable": true,
             "storageLocation": "default",
@@ -70,7 +70,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 1510,
+              "id": 1496,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "251:7:3",
@@ -85,7 +85,7 @@
                 "typeIdentifier": "t_rational_1_by_1",
                 "typeString": "int_const 1"
               },
-              "id": 1513,
+              "id": 1499,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -93,7 +93,7 @@
               "leftExpression": {
                 "argumentTypes": null,
                 "hexValue": "31",
-                "id": 1511,
+                "id": 1497,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -113,7 +113,7 @@
               "rightExpression": {
                 "argumentTypes": null,
                 "hexValue": "30",
-                "id": 1512,
+                "id": 1498,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -137,7 +137,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 1516,
+        "scope": 1502,
         "src": "199:118:3"
       }
     ],
@@ -147,14 +147,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/FeatureIds.sol",
     "exportedSymbols": {
       "FeatureIds": [
-        1515
+        1501
       ]
     },
-    "id": 1516,
+    "id": 1502,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1509,
+        "id": 1495,
         "literals": [
           "solidity",
           "^",
@@ -170,19 +170,19 @@
         "contractKind": "contract",
         "documentation": "Id definitions for bancor contract features\nCan be used to query the ContractFeatures contract to check whether a certain feature is supported by a contract",
         "fullyImplemented": true,
-        "id": 1515,
+        "id": 1501,
         "linearizedBaseContracts": [
-          1515
+          1501
         ],
         "name": "FeatureIds",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": true,
-            "id": 1514,
+            "id": 1500,
             "name": "CONVERTER_CONVERSION_WHITELIST",
             "nodeType": "VariableDeclaration",
-            "scope": 1515,
+            "scope": 1501,
             "src": "251:63:3",
             "stateVariable": true,
             "storageLocation": "default",
@@ -191,7 +191,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 1510,
+              "id": 1496,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "251:7:3",
@@ -206,7 +206,7 @@
                 "typeIdentifier": "t_rational_1_by_1",
                 "typeString": "int_const 1"
               },
-              "id": 1513,
+              "id": 1499,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -214,7 +214,7 @@
               "leftExpression": {
                 "argumentTypes": null,
                 "hexValue": "31",
-                "id": 1511,
+                "id": 1497,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -234,7 +234,7 @@
               "rightExpression": {
                 "argumentTypes": null,
                 "hexValue": "30",
-                "id": 1512,
+                "id": 1498,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -258,7 +258,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 1516,
+        "scope": 1502,
         "src": "199:118:3"
       }
     ],
@@ -270,5 +270,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-28T10:14:50.595Z"
+  "updatedAt": "2018-10-28T10:49:53.203Z"
 }

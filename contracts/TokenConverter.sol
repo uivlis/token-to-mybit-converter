@@ -12,15 +12,6 @@ contract TokenConverter {
 
     BancorNetwork bancorNetwork;
 
-    ///@param _string the string to convert into bytes32
-    function stringToBytes32(string memory _string) private pure returns (bytes32) {
-        bytes32 result;
-        assembly {
-            result := mload(add(_string,32))
-        }
-        return result;
-    }
-
     ///@notice initialise addresses needed for conversion
     constructor() {
         bancorNetwork = BancorNetwork(0xF20b9e713A33F61fA38792d2aFaF1cD30339126A);
