@@ -152,14 +152,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/ContractIds.sol",
     "exportedSymbols": {
       "ContractIds": [
-        1495
+        1507
       ]
     },
-    "id": 1496,
+    "id": 1508,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1464,
+        "id": 1476,
         "literals": [
           "solidity",
           "^",
@@ -175,19 +175,19 @@
         "contractKind": "contract",
         "documentation": "Id definitions for bancor contracts\nCan be used in conjunction with the contract registry to get contract addresses",
         "fullyImplemented": true,
-        "id": 1495,
+        "id": 1507,
         "linearizedBaseContracts": [
-          1495
+          1507
         ],
         "name": "ContractIds",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": true,
-            "id": 1467,
+            "id": 1479,
             "name": "CONTRACT_FEATURES",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "200:62:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -196,7 +196,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1465,
+              "id": 1477,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "200:7:2",
@@ -208,7 +208,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "436f6e74726163744665617475726573",
-              "id": 1466,
+              "id": 1478,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -227,10 +227,10 @@
           },
           {
             "constant": true,
-            "id": 1470,
+            "id": 1482,
             "name": "CONTRACT_REGISTRY",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "268:62:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -239,7 +239,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1468,
+              "id": 1480,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "268:7:2",
@@ -251,7 +251,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "436f6e74726163745265676973747279",
-              "id": 1469,
+              "id": 1481,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -270,10 +270,10 @@
           },
           {
             "constant": true,
-            "id": 1473,
+            "id": 1485,
             "name": "BANCOR_NETWORK",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "357:56:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -282,7 +282,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1471,
+              "id": 1483,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "357:7:2",
@@ -294,7 +294,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f724e6574776f726b",
-              "id": 1472,
+              "id": 1484,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -313,10 +313,10 @@
           },
           {
             "constant": true,
-            "id": 1476,
+            "id": 1488,
             "name": "BANCOR_FORMULA",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "419:56:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -325,7 +325,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1474,
+              "id": 1486,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "419:7:2",
@@ -337,7 +337,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f72466f726d756c61",
-              "id": 1475,
+              "id": 1487,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -356,10 +356,10 @@
           },
           {
             "constant": true,
-            "id": 1479,
+            "id": 1491,
             "name": "BANCOR_GAS_PRICE_LIMIT",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "481:70:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -368,7 +368,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1477,
+              "id": 1489,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "481:7:2",
@@ -380,7 +380,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f7247617350726963654c696d6974",
-              "id": 1478,
+              "id": 1490,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -399,10 +399,10 @@
           },
           {
             "constant": true,
-            "id": 1482,
+            "id": 1494,
             "name": "BANCOR_CONVERTER_UPGRADER",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "557:77:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -411,7 +411,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1480,
+              "id": 1492,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "557:7:2",
@@ -423,7 +423,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f72436f6e7665727465725570677261646572",
-              "id": 1481,
+              "id": 1493,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -442,10 +442,10 @@
           },
           {
             "constant": true,
-            "id": 1485,
+            "id": 1497,
             "name": "BANCOR_CONVERTER_FACTORY",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "640:75:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -454,7 +454,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1483,
+              "id": 1495,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "640:7:2",
@@ -466,7 +466,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f72436f6e766572746572466163746f7279",
-              "id": 1484,
+              "id": 1496,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -485,10 +485,10 @@
           },
           {
             "constant": true,
-            "id": 1488,
+            "id": 1500,
             "name": "BNT_TOKEN",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "764:46:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -497,7 +497,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1486,
+              "id": 1498,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "764:7:2",
@@ -509,7 +509,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "424e54546f6b656e",
-              "id": 1487,
+              "id": 1499,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -528,10 +528,10 @@
           },
           {
             "constant": true,
-            "id": 1491,
+            "id": 1503,
             "name": "BNT_CONVERTER",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "816:54:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -540,7 +540,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1489,
+              "id": 1501,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "816:7:2",
@@ -552,7 +552,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "424e54436f6e766572746572",
-              "id": 1490,
+              "id": 1502,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -571,10 +571,10 @@
           },
           {
             "constant": true,
-            "id": 1494,
+            "id": 1506,
             "name": "BANCOR_X",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "907:44:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -583,7 +583,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1492,
+              "id": 1504,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "907:7:2",
@@ -595,7 +595,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f7258",
-              "id": 1493,
+              "id": 1505,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -613,7 +613,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 1496,
+        "scope": 1508,
         "src": "158:796:2"
       }
     ],
@@ -623,14 +623,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/ContractIds.sol",
     "exportedSymbols": {
       "ContractIds": [
-        1495
+        1507
       ]
     },
-    "id": 1496,
+    "id": 1508,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1464,
+        "id": 1476,
         "literals": [
           "solidity",
           "^",
@@ -646,19 +646,19 @@
         "contractKind": "contract",
         "documentation": "Id definitions for bancor contracts\nCan be used in conjunction with the contract registry to get contract addresses",
         "fullyImplemented": true,
-        "id": 1495,
+        "id": 1507,
         "linearizedBaseContracts": [
-          1495
+          1507
         ],
         "name": "ContractIds",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": true,
-            "id": 1467,
+            "id": 1479,
             "name": "CONTRACT_FEATURES",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "200:62:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -667,7 +667,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1465,
+              "id": 1477,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "200:7:2",
@@ -679,7 +679,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "436f6e74726163744665617475726573",
-              "id": 1466,
+              "id": 1478,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -698,10 +698,10 @@
           },
           {
             "constant": true,
-            "id": 1470,
+            "id": 1482,
             "name": "CONTRACT_REGISTRY",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "268:62:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -710,7 +710,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1468,
+              "id": 1480,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "268:7:2",
@@ -722,7 +722,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "436f6e74726163745265676973747279",
-              "id": 1469,
+              "id": 1481,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -741,10 +741,10 @@
           },
           {
             "constant": true,
-            "id": 1473,
+            "id": 1485,
             "name": "BANCOR_NETWORK",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "357:56:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -753,7 +753,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1471,
+              "id": 1483,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "357:7:2",
@@ -765,7 +765,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f724e6574776f726b",
-              "id": 1472,
+              "id": 1484,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -784,10 +784,10 @@
           },
           {
             "constant": true,
-            "id": 1476,
+            "id": 1488,
             "name": "BANCOR_FORMULA",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "419:56:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -796,7 +796,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1474,
+              "id": 1486,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "419:7:2",
@@ -808,7 +808,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f72466f726d756c61",
-              "id": 1475,
+              "id": 1487,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -827,10 +827,10 @@
           },
           {
             "constant": true,
-            "id": 1479,
+            "id": 1491,
             "name": "BANCOR_GAS_PRICE_LIMIT",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "481:70:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -839,7 +839,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1477,
+              "id": 1489,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "481:7:2",
@@ -851,7 +851,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f7247617350726963654c696d6974",
-              "id": 1478,
+              "id": 1490,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -870,10 +870,10 @@
           },
           {
             "constant": true,
-            "id": 1482,
+            "id": 1494,
             "name": "BANCOR_CONVERTER_UPGRADER",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "557:77:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -882,7 +882,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1480,
+              "id": 1492,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "557:7:2",
@@ -894,7 +894,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f72436f6e7665727465725570677261646572",
-              "id": 1481,
+              "id": 1493,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -913,10 +913,10 @@
           },
           {
             "constant": true,
-            "id": 1485,
+            "id": 1497,
             "name": "BANCOR_CONVERTER_FACTORY",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "640:75:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -925,7 +925,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1483,
+              "id": 1495,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "640:7:2",
@@ -937,7 +937,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f72436f6e766572746572466163746f7279",
-              "id": 1484,
+              "id": 1496,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -956,10 +956,10 @@
           },
           {
             "constant": true,
-            "id": 1488,
+            "id": 1500,
             "name": "BNT_TOKEN",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "764:46:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -968,7 +968,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1486,
+              "id": 1498,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "764:7:2",
@@ -980,7 +980,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "424e54546f6b656e",
-              "id": 1487,
+              "id": 1499,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -999,10 +999,10 @@
           },
           {
             "constant": true,
-            "id": 1491,
+            "id": 1503,
             "name": "BNT_CONVERTER",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "816:54:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1011,7 +1011,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1489,
+              "id": 1501,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "816:7:2",
@@ -1023,7 +1023,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "424e54436f6e766572746572",
-              "id": 1490,
+              "id": 1502,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1042,10 +1042,10 @@
           },
           {
             "constant": true,
-            "id": 1494,
+            "id": 1506,
             "name": "BANCOR_X",
             "nodeType": "VariableDeclaration",
-            "scope": 1495,
+            "scope": 1507,
             "src": "907:44:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1054,7 +1054,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1492,
+              "id": 1504,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "907:7:2",
@@ -1066,7 +1066,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "42616e636f7258",
-              "id": 1493,
+              "id": 1505,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1084,7 +1084,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 1496,
+        "scope": 1508,
         "src": "158:796:2"
       }
     ],
@@ -1096,5 +1096,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-28T09:53:56.461Z"
+  "updatedAt": "2018-10-28T10:14:50.601Z"
 }
