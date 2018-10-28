@@ -44,13 +44,13 @@ contract TokenConverter {
         path[0] = token;
         path[1] = myBit;
         path[2] = myBit;
-        uint myBitBalanceAfter = myBit.balanceOf(this);
+        uint myBitBalanceBefore = myBit.balanceOf(this);
         uint convertedValue = bancorNetwork.convert.value(value)(
             path,
             amount,
             _minimumReturn
         );
-        require(myBit.balanceOf(this) == myBitBalanceAfter + convertedValue, "Transaction failed with return loss.");
+        require(myBit.balanceOf(this) == myBitBalanceBefore + convertedValue, "Transaction failed with return loss.");
         require (convertedValue >= _minimumReturn, "Transaction failed with return below minimum threshold.");
         require (token.balanceOf(this) <= amount, "Transaction failed without conversion.");
         myBit.transfer(msg.sender, convertedValue);
