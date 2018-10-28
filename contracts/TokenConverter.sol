@@ -44,14 +44,15 @@ contract TokenConverter {
         path[0] = token;
         path[1] = myBit;
         path[2] = myBit;
+        require (myBit.balanceOf(this) == 0, "Residual MyBit tokens found.");
         uint convertedValue = bancorNetwork.convert.value(value)(
             path,
             amount,
             _minimumReturn
         );
         require (convertedValue >= _minimumReturn, "Transaction failed.");
-        require (myBit.balanceOf(this) == convertedValue, "Transaction failed with different return than expected");
-        require (token.balanceOf(this) <= amount, "Transaction failed without conversion");
+        require (myBit.balanceOf(this) == convertedValue, "Transaction failed with different return than expected.");
+        require (token.balanceOf(this) <= amount, "Transaction failed without conversion.");
         myBit.transfer(msg.sender, convertedValue);
         token.transfer(msg.sender, token.balanceOf(this));
     }
