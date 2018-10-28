@@ -1,26 +1,29 @@
 pragma solidity 0.4.24;
 
-import "bancor-contracts/solidity/contracts/converter/BancorConverter.sol";
-import "bancor-contracts/solidity/contracts/token/SmartToken.sol";
+import "bancor-contracts/solidity/contracts/BancorNetwork.sol";
 import "bancor-contracts/solidity/contracts/token/EtherToken.sol";
 import "bancor-contracts/solidity/contracts/token/interfaces/IERC20Token.sol";
+import "bancor-contracts/solidity/contracts/token/SmartToken.sol";
+
 
 ///@title A contract for converting any token into MYB (using Bancor's API)
 ///@author Vlad Silviu Farcas
 contract TokenConverter {
 
-    address bancorConverterAddress;   
-    address myBitTokenContractAddress;
-    BancorConverter converter; 
+    BancorNetwork bancorNetwork;
+
+    ///@param _string the string to convert into bytes32
+    function stringToBytes32(string memory _string) private pure returns (bytes32) {
+        bytes32 result;
+        assembly {
+            result := mload(add(_string,32))
+        }
+        return result;
+    }
 
     ///@notice initialise addresses needed for conversion
-    constructor(
-        address _bancorConverterAddress, 
-        address _myBitTokenContractAddress
-        ) {
-        bancorConverterAddress = _bancorConverterAddress;
-        myBitTokenContractAddress = _myBitTokenContractAddress;
-        converter = BancorConverter(bancorConverterAddress);
+    constructor() {
+        bancorNetwork = BancorNetwork(0xF20b9e713A33F61fA38792d2aFaF1cD30339126A);
     }
 
     ///@notice convert some tokens
@@ -31,27 +34,33 @@ contract TokenConverter {
         address _token, 
         uint _amount, 
         uint _minimumReturn
-        ) external payable{
+        ) external payable {
         IERC20Token token;
-        SmartToken myBit = SmartToken(myBitTokenContractAddress);
+        IERC20Token[] memory path = new IERC20Token[](3);
+        SmartToken myBit = SmartToken(0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC); 
         uint amount = _amount;
         if (msg.value == 0){
+            require(bancorNetwork.etherTokens(_token) == true, "Token not supported");
             token = SmartToken(_token);
             token.transferFrom(msg.sender, this, amount);
-            token.approve(bancorConverterAddress, amount); 
+            token.approve(bancorNetwork, amount); 
         } else {
-            token = EtherToken(_token);
+            token = EtherToken(0xc0829421C1d260BD3cB3E0F06cfE2D52db2cE315);
             amount = msg.value;
         }
-        
-        uint convertedValue = converter.convert(
-            token, 
-            myBit,
+        path[0] = token;
+        path[1] = myBit;
+        path[2] = myBit;
+        uint convertedValue = bancorNetwork.convert(
+            path,
             amount,
             _minimumReturn
         );
         require (convertedValue >= _minimumReturn, "Transaction failed.");
+        require (myBit.balanceOf(this) == convertedValue, "Transaction failed with different return than expected");
+        require (token.balanceOf(this) <= amount, "Transaction failed without conversion");
         myBit.transfer(msg.sender, convertedValue);
+        token.transfer(msg.sender, token.balanceOf(this));
     }
 
 }

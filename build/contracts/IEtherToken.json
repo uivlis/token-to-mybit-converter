@@ -283,14 +283,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/token/interfaces/IEtherToken.sol",
     "exportedSymbols": {
       "IEtherToken": [
-        3193
+        2475
       ]
     },
-    "id": 3194,
+    "id": 2476,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3171,
+        "id": 2453,
         "literals": [
           "solidity",
           "^",
@@ -298,27 +298,27 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:13"
+        "src": "0:24:12"
       },
       {
         "absolutePath": "bancor-contracts/solidity/contracts/token/interfaces/IERC20Token.sol",
         "file": "./IERC20Token.sol",
-        "id": 3172,
+        "id": 2454,
         "nodeType": "ImportDirective",
-        "scope": 3194,
-        "sourceUnit": 3170,
-        "src": "25:27:13",
+        "scope": 2476,
+        "sourceUnit": 2452,
+        "src": "25:27:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/ITokenHolder.sol",
         "file": "../../utility/interfaces/ITokenHolder.sol",
-        "id": 3173,
+        "id": 2455,
         "nodeType": "ImportDirective",
-        "scope": 3194,
-        "sourceUnit": 3634,
-        "src": "53:51:13",
+        "scope": 2476,
+        "sourceUnit": 2820,
+        "src": "53:51:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -328,53 +328,53 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 3174,
+              "id": 2456,
               "name": "ITokenHolder",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3633,
-              "src": "162:12:13",
+              "referencedDeclaration": 2819,
+              "src": "162:12:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ITokenHolder_$3633",
+                "typeIdentifier": "t_contract$_ITokenHolder_$2819",
                 "typeString": "contract ITokenHolder"
               }
             },
-            "id": 3175,
+            "id": 2457,
             "nodeType": "InheritanceSpecifier",
-            "src": "162:12:13"
+            "src": "162:12:12"
           },
           {
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 3176,
+              "id": 2458,
               "name": "IERC20Token",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3169,
-              "src": "176:11:13",
+              "referencedDeclaration": 2451,
+              "src": "176:11:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IERC20Token_$3169",
+                "typeIdentifier": "t_contract$_IERC20Token_$2451",
                 "typeString": "contract IERC20Token"
               }
             },
-            "id": 3177,
+            "id": 2459,
             "nodeType": "InheritanceSpecifier",
-            "src": "176:11:13"
+            "src": "176:11:12"
           }
         ],
         "contractDependencies": [
-          3169,
-          3617,
-          3633
+          2451,
+          2803,
+          2819
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 3193,
+        "id": 2475,
         "linearizedBaseContracts": [
-          3193,
-          3169,
-          3633,
-          3617
+          2475,
+          2451,
+          2819,
+          2803
         ],
         "name": "IEtherToken",
         "nodeType": "ContractDefinition",
@@ -382,7 +382,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 3180,
+            "id": 2462,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -390,20 +390,20 @@
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3178,
+              "id": 2460,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "210:2:13"
+              "src": "210:2:12"
             },
             "payable": true,
             "returnParameters": {
-              "id": 3179,
+              "id": 2461,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "227:0:13"
+              "src": "227:0:12"
             },
-            "scope": 3193,
-            "src": "194:34:13",
+            "scope": 2475,
+            "src": "194:34:12",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
@@ -411,7 +411,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 3185,
+            "id": 2467,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -419,16 +419,16 @@
             "name": "withdraw",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3183,
+              "id": 2465,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3182,
+                  "id": 2464,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3185,
-                  "src": "251:15:13",
+                  "scope": 2467,
+                  "src": "251:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -436,10 +436,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3181,
+                    "id": 2463,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "251:7:13",
+                    "src": "251:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -449,17 +449,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "250:17:13"
+              "src": "250:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3184,
+              "id": 2466,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "274:0:13"
+              "src": "274:0:12"
             },
-            "scope": 3193,
-            "src": "233:42:13",
+            "scope": 2475,
+            "src": "233:42:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -467,7 +467,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 3192,
+            "id": 2474,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -475,16 +475,16 @@
             "name": "withdrawTo",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3190,
+              "id": 2472,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3187,
+                  "id": 2469,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3192,
-                  "src": "300:11:13",
+                  "scope": 2474,
+                  "src": "300:11:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -492,10 +492,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3186,
+                    "id": 2468,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "300:7:13",
+                    "src": "300:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -506,11 +506,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 3189,
+                  "id": 2471,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3192,
-                  "src": "313:15:13",
+                  "scope": 2474,
+                  "src": "313:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -518,10 +518,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3188,
+                    "id": 2470,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "313:7:13",
+                    "src": "313:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -531,40 +531,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "299:30:13"
+              "src": "299:30:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3191,
+              "id": 2473,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "336:0:13"
+              "src": "336:0:12"
             },
-            "scope": 3193,
-            "src": "280:57:13",
+            "scope": 2475,
+            "src": "280:57:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 3194,
-        "src": "138:201:13"
+        "scope": 2476,
+        "src": "138:201:12"
       }
     ],
-    "src": "0:340:13"
+    "src": "0:340:12"
   },
   "legacyAST": {
     "absolutePath": "bancor-contracts/solidity/contracts/token/interfaces/IEtherToken.sol",
     "exportedSymbols": {
       "IEtherToken": [
-        3193
+        2475
       ]
     },
-    "id": 3194,
+    "id": 2476,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3171,
+        "id": 2453,
         "literals": [
           "solidity",
           "^",
@@ -572,27 +572,27 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:13"
+        "src": "0:24:12"
       },
       {
         "absolutePath": "bancor-contracts/solidity/contracts/token/interfaces/IERC20Token.sol",
         "file": "./IERC20Token.sol",
-        "id": 3172,
+        "id": 2454,
         "nodeType": "ImportDirective",
-        "scope": 3194,
-        "sourceUnit": 3170,
-        "src": "25:27:13",
+        "scope": 2476,
+        "sourceUnit": 2452,
+        "src": "25:27:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/ITokenHolder.sol",
         "file": "../../utility/interfaces/ITokenHolder.sol",
-        "id": 3173,
+        "id": 2455,
         "nodeType": "ImportDirective",
-        "scope": 3194,
-        "sourceUnit": 3634,
-        "src": "53:51:13",
+        "scope": 2476,
+        "sourceUnit": 2820,
+        "src": "53:51:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -602,53 +602,53 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 3174,
+              "id": 2456,
               "name": "ITokenHolder",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3633,
-              "src": "162:12:13",
+              "referencedDeclaration": 2819,
+              "src": "162:12:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ITokenHolder_$3633",
+                "typeIdentifier": "t_contract$_ITokenHolder_$2819",
                 "typeString": "contract ITokenHolder"
               }
             },
-            "id": 3175,
+            "id": 2457,
             "nodeType": "InheritanceSpecifier",
-            "src": "162:12:13"
+            "src": "162:12:12"
           },
           {
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 3176,
+              "id": 2458,
               "name": "IERC20Token",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3169,
-              "src": "176:11:13",
+              "referencedDeclaration": 2451,
+              "src": "176:11:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IERC20Token_$3169",
+                "typeIdentifier": "t_contract$_IERC20Token_$2451",
                 "typeString": "contract IERC20Token"
               }
             },
-            "id": 3177,
+            "id": 2459,
             "nodeType": "InheritanceSpecifier",
-            "src": "176:11:13"
+            "src": "176:11:12"
           }
         ],
         "contractDependencies": [
-          3169,
-          3617,
-          3633
+          2451,
+          2803,
+          2819
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 3193,
+        "id": 2475,
         "linearizedBaseContracts": [
-          3193,
-          3169,
-          3633,
-          3617
+          2475,
+          2451,
+          2819,
+          2803
         ],
         "name": "IEtherToken",
         "nodeType": "ContractDefinition",
@@ -656,7 +656,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 3180,
+            "id": 2462,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -664,20 +664,20 @@
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3178,
+              "id": 2460,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "210:2:13"
+              "src": "210:2:12"
             },
             "payable": true,
             "returnParameters": {
-              "id": 3179,
+              "id": 2461,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "227:0:13"
+              "src": "227:0:12"
             },
-            "scope": 3193,
-            "src": "194:34:13",
+            "scope": 2475,
+            "src": "194:34:12",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
@@ -685,7 +685,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 3185,
+            "id": 2467,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -693,16 +693,16 @@
             "name": "withdraw",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3183,
+              "id": 2465,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3182,
+                  "id": 2464,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3185,
-                  "src": "251:15:13",
+                  "scope": 2467,
+                  "src": "251:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -710,10 +710,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3181,
+                    "id": 2463,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "251:7:13",
+                    "src": "251:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -723,17 +723,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "250:17:13"
+              "src": "250:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3184,
+              "id": 2466,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "274:0:13"
+              "src": "274:0:12"
             },
-            "scope": 3193,
-            "src": "233:42:13",
+            "scope": 2475,
+            "src": "233:42:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -741,7 +741,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 3192,
+            "id": 2474,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -749,16 +749,16 @@
             "name": "withdrawTo",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3190,
+              "id": 2472,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3187,
+                  "id": 2469,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3192,
-                  "src": "300:11:13",
+                  "scope": 2474,
+                  "src": "300:11:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -766,10 +766,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3186,
+                    "id": 2468,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "300:7:13",
+                    "src": "300:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -780,11 +780,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 3189,
+                  "id": 2471,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3192,
-                  "src": "313:15:13",
+                  "scope": 2474,
+                  "src": "313:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -792,10 +792,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3188,
+                    "id": 2470,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "313:7:13",
+                    "src": "313:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -805,27 +805,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "299:30:13"
+              "src": "299:30:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3191,
+              "id": 2473,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "336:0:13"
+              "src": "336:0:12"
             },
-            "scope": 3193,
-            "src": "280:57:13",
+            "scope": 2475,
+            "src": "280:57:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 3194,
-        "src": "138:201:13"
+        "scope": 2476,
+        "src": "138:201:12"
       }
     ],
-    "src": "0:340:13"
+    "src": "0:340:12"
   },
   "compiler": {
     "name": "solc",
@@ -833,5 +833,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-26T06:31:15.281Z"
+  "updatedAt": "2018-10-28T09:53:56.453Z"
 }

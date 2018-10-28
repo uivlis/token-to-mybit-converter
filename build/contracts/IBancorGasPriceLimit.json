@@ -1,14 +1,14 @@
 {
-  "contractName": "IOwned",
+  "contractName": "IBancorGasPriceLimit",
   "abi": [
     {
       "constant": true,
       "inputs": [],
-      "name": "owner",
+      "name": "gasPrice",
       "outputs": [
         {
           "name": "",
-          "type": "address"
+          "type": "uint256"
         }
       ],
       "payable": false,
@@ -16,26 +16,17 @@
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true,
       "inputs": [
         {
-          "name": "_newOwner",
-          "type": "address"
+          "name": "",
+          "type": "uint256"
         }
       ],
-      "name": "transferOwnership",
+      "name": "validateGasPrice",
       "outputs": [],
       "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [],
-      "name": "acceptOwnership",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "stateMutability": "view",
       "type": "function"
     }
   ],
@@ -43,20 +34,20 @@
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.4.24;\n\n/*\n    Owned contract interface\n*/\ncontract IOwned {\n    // this function isn't abstract since the compiler emits automatically generated getter functions as external\n    function owner() public view returns (address) {}\n\n    function transferOwnership(address _newOwner) public;\n    function acceptOwnership() public;\n}\n",
-  "sourcePath": "bancor-contracts\\solidity\\contracts\\utility\\interfaces\\IOwned.sol",
+  "source": "pragma solidity ^0.4.24;\n\n/*\n    Bancor Gas Price Limit interface\n*/\ncontract IBancorGasPriceLimit {\n    function gasPrice() public view returns (uint256) {}\n    function validateGasPrice(uint256) public view;\n}\n",
+  "sourcePath": "bancor-contracts\\solidity\\contracts\\converter\\interfaces\\IBancorGasPriceLimit.sol",
   "ast": {
-    "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/IOwned.sol",
+    "absolutePath": "bancor-contracts/solidity/contracts/converter/interfaces/IBancorGasPriceLimit.sol",
     "exportedSymbols": {
-      "IOwned": [
-        2803
+      "IBancorGasPriceLimit": [
+        1725
       ]
     },
-    "id": 2804,
+    "id": 1726,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2788,
+        "id": 1713,
         "literals": [
           "solidity",
           "^",
@@ -64,7 +55,7 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:19"
+        "src": "0:24:7"
       },
       {
         "baseContracts": [],
@@ -72,70 +63,70 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 2803,
+        "id": 1725,
         "linearizedBaseContracts": [
-          2803
+          1725
         ],
-        "name": "IOwned",
+        "name": "IBancorGasPriceLimit",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2793,
+              "id": 1718,
               "nodeType": "Block",
-              "src": "244:2:19",
+              "src": "155:2:7",
               "statements": []
             },
             "documentation": null,
-            "id": 2794,
+            "id": 1719,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
             "modifiers": [],
-            "name": "owner",
+            "name": "gasPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2789,
+              "id": 1714,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:2:19"
+              "src": "122:2:7"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2792,
+              "id": 1717,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2791,
+                  "id": 1716,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2794,
-                  "src": "235:7:19",
+                  "scope": 1719,
+                  "src": "146:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2790,
-                    "name": "address",
+                    "id": 1715,
+                    "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "235:7:19",
+                    "src": "146:7:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
                   "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "234:9:19"
+              "src": "145:9:7"
             },
-            "scope": 2803,
-            "src": "197:49:19",
+            "scope": 1725,
+            "src": "105:52:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -143,107 +134,78 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2799,
+            "id": 1724,
             "implemented": false,
             "isConstructor": false,
-            "isDeclaredConst": false,
+            "isDeclaredConst": true,
             "modifiers": [],
-            "name": "transferOwnership",
+            "name": "validateGasPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2797,
+              "id": 1722,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2796,
-                  "name": "_newOwner",
+                  "id": 1721,
+                  "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2799,
-                  "src": "279:17:19",
+                  "scope": 1724,
+                  "src": "188:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2795,
-                    "name": "address",
+                    "id": 1720,
+                    "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "279:7:19",
+                    "src": "188:7:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
                   "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "278:19:19"
+              "src": "187:9:7"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2798,
+              "id": 1723,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "304:0:19"
+              "src": "208:0:7"
             },
-            "scope": 2803,
-            "src": "252:53:19",
-            "stateMutability": "nonpayable",
-            "superFunction": null,
-            "visibility": "public"
-          },
-          {
-            "body": null,
-            "documentation": null,
-            "id": 2802,
-            "implemented": false,
-            "isConstructor": false,
-            "isDeclaredConst": false,
-            "modifiers": [],
-            "name": "acceptOwnership",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 2800,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "334:2:19"
-            },
-            "payable": false,
-            "returnParameters": {
-              "id": 2801,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "343:0:19"
-            },
-            "scope": 2803,
-            "src": "310:34:19",
-            "stateMutability": "nonpayable",
+            "scope": 1725,
+            "src": "162:47:7",
+            "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2804,
-        "src": "61:285:19"
+        "scope": 1726,
+        "src": "69:142:7"
       }
     ],
-    "src": "0:347:19"
+    "src": "0:212:7"
   },
   "legacyAST": {
-    "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/IOwned.sol",
+    "absolutePath": "bancor-contracts/solidity/contracts/converter/interfaces/IBancorGasPriceLimit.sol",
     "exportedSymbols": {
-      "IOwned": [
-        2803
+      "IBancorGasPriceLimit": [
+        1725
       ]
     },
-    "id": 2804,
+    "id": 1726,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2788,
+        "id": 1713,
         "literals": [
           "solidity",
           "^",
@@ -251,7 +213,7 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:19"
+        "src": "0:24:7"
       },
       {
         "baseContracts": [],
@@ -259,70 +221,70 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 2803,
+        "id": 1725,
         "linearizedBaseContracts": [
-          2803
+          1725
         ],
-        "name": "IOwned",
+        "name": "IBancorGasPriceLimit",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2793,
+              "id": 1718,
               "nodeType": "Block",
-              "src": "244:2:19",
+              "src": "155:2:7",
               "statements": []
             },
             "documentation": null,
-            "id": 2794,
+            "id": 1719,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
             "modifiers": [],
-            "name": "owner",
+            "name": "gasPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2789,
+              "id": 1714,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:2:19"
+              "src": "122:2:7"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2792,
+              "id": 1717,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2791,
+                  "id": 1716,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2794,
-                  "src": "235:7:19",
+                  "scope": 1719,
+                  "src": "146:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2790,
-                    "name": "address",
+                    "id": 1715,
+                    "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "235:7:19",
+                    "src": "146:7:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
                   "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "234:9:19"
+              "src": "145:9:7"
             },
-            "scope": 2803,
-            "src": "197:49:19",
+            "scope": 1725,
+            "src": "105:52:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -330,94 +292,65 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2799,
+            "id": 1724,
             "implemented": false,
             "isConstructor": false,
-            "isDeclaredConst": false,
+            "isDeclaredConst": true,
             "modifiers": [],
-            "name": "transferOwnership",
+            "name": "validateGasPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2797,
+              "id": 1722,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2796,
-                  "name": "_newOwner",
+                  "id": 1721,
+                  "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2799,
-                  "src": "279:17:19",
+                  "scope": 1724,
+                  "src": "188:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2795,
-                    "name": "address",
+                    "id": 1720,
+                    "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "279:7:19",
+                    "src": "188:7:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
                   "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "278:19:19"
+              "src": "187:9:7"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2798,
+              "id": 1723,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "304:0:19"
+              "src": "208:0:7"
             },
-            "scope": 2803,
-            "src": "252:53:19",
-            "stateMutability": "nonpayable",
-            "superFunction": null,
-            "visibility": "public"
-          },
-          {
-            "body": null,
-            "documentation": null,
-            "id": 2802,
-            "implemented": false,
-            "isConstructor": false,
-            "isDeclaredConst": false,
-            "modifiers": [],
-            "name": "acceptOwnership",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 2800,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "334:2:19"
-            },
-            "payable": false,
-            "returnParameters": {
-              "id": 2801,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "343:0:19"
-            },
-            "scope": 2803,
-            "src": "310:34:19",
-            "stateMutability": "nonpayable",
+            "scope": 1725,
+            "src": "162:47:7",
+            "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2804,
-        "src": "61:285:19"
+        "scope": 1726,
+        "src": "69:142:7"
       }
     ],
-    "src": "0:347:19"
+    "src": "0:212:7"
   },
   "compiler": {
     "name": "solc",
@@ -425,5 +358,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-28T09:53:56.450Z"
+  "updatedAt": "2018-10-28T09:53:56.449Z"
 }
