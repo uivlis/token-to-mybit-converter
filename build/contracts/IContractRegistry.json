@@ -50,14 +50,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/IContractRegistry.sol",
     "exportedSymbols": {
       "IContractRegistry": [
-        2794
+        2793
       ]
     },
-    "id": 2795,
+    "id": 2794,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2779,
+        "id": 2778,
         "literals": [
           "solidity",
           "^",
@@ -73,9 +73,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 2794,
+        "id": 2793,
         "linearizedBaseContracts": [
-          2794
+          2793
         ],
         "name": "IContractRegistry",
         "nodeType": "ContractDefinition",
@@ -83,7 +83,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2786,
+            "id": 2785,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -91,15 +91,15 @@
             "name": "addressOf",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2782,
+              "id": 2781,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2781,
+                  "id": 2780,
                   "name": "_contractName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2786,
+                  "scope": 2785,
                   "src": "116:21:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -108,7 +108,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 2780,
+                    "id": 2779,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "116:7:18",
@@ -125,15 +125,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2785,
+              "id": 2784,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2784,
+                  "id": 2783,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2786,
+                  "scope": 2785,
                   "src": "160:7:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -142,7 +142,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2783,
+                    "id": 2782,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "160:7:18",
@@ -157,7 +157,7 @@
               ],
               "src": "159:9:18"
             },
-            "scope": 2794,
+            "scope": 2793,
             "src": "97:72:18",
             "stateMutability": "view",
             "superFunction": null,
@@ -166,7 +166,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2793,
+            "id": 2792,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -174,15 +174,15 @@
             "name": "getAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2789,
+              "id": 2788,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2788,
+                  "id": 2787,
                   "name": "_contractName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2793,
+                  "scope": 2792,
                   "src": "237:21:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -191,7 +191,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 2787,
+                    "id": 2786,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "237:7:18",
@@ -208,15 +208,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2792,
+              "id": 2791,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2791,
+                  "id": 2790,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2793,
+                  "scope": 2792,
                   "src": "281:7:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -225,7 +225,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2790,
+                    "id": 2789,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "281:7:18",
@@ -240,14 +240,14 @@
               ],
               "src": "280:9:18"
             },
-            "scope": 2794,
+            "scope": 2793,
             "src": "217:73:18",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2795,
+        "scope": 2794,
         "src": "64:228:18"
       }
     ],
@@ -257,14 +257,14 @@
     "absolutePath": "bancor-contracts/solidity/contracts/utility/interfaces/IContractRegistry.sol",
     "exportedSymbols": {
       "IContractRegistry": [
-        2794
+        2793
       ]
     },
-    "id": 2795,
+    "id": 2794,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2779,
+        "id": 2778,
         "literals": [
           "solidity",
           "^",
@@ -280,9 +280,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 2794,
+        "id": 2793,
         "linearizedBaseContracts": [
-          2794
+          2793
         ],
         "name": "IContractRegistry",
         "nodeType": "ContractDefinition",
@@ -290,7 +290,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2786,
+            "id": 2785,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -298,15 +298,15 @@
             "name": "addressOf",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2782,
+              "id": 2781,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2781,
+                  "id": 2780,
                   "name": "_contractName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2786,
+                  "scope": 2785,
                   "src": "116:21:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -315,7 +315,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 2780,
+                    "id": 2779,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "116:7:18",
@@ -332,15 +332,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2785,
+              "id": 2784,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2784,
+                  "id": 2783,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2786,
+                  "scope": 2785,
                   "src": "160:7:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -349,7 +349,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2783,
+                    "id": 2782,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "160:7:18",
@@ -364,7 +364,7 @@
               ],
               "src": "159:9:18"
             },
-            "scope": 2794,
+            "scope": 2793,
             "src": "97:72:18",
             "stateMutability": "view",
             "superFunction": null,
@@ -373,7 +373,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2793,
+            "id": 2792,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -381,15 +381,15 @@
             "name": "getAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2789,
+              "id": 2788,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2788,
+                  "id": 2787,
                   "name": "_contractName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2793,
+                  "scope": 2792,
                   "src": "237:21:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -398,7 +398,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 2787,
+                    "id": 2786,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "237:7:18",
@@ -415,15 +415,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2792,
+              "id": 2791,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2791,
+                  "id": 2790,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2793,
+                  "scope": 2792,
                   "src": "281:7:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -432,7 +432,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2790,
+                    "id": 2789,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "281:7:18",
@@ -447,14 +447,14 @@
               ],
               "src": "280:9:18"
             },
-            "scope": 2794,
+            "scope": 2793,
             "src": "217:73:18",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2795,
+        "scope": 2794,
         "src": "64:228:18"
       }
     ],
@@ -466,5 +466,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-28T11:14:34.127Z"
+  "updatedAt": "2018-10-28T16:11:01.139Z"
 }
