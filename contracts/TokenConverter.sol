@@ -27,8 +27,9 @@ contract TokenConverter {
         uint _minimumReturn
         ) external payable {
         IERC20Token token;
-        IERC20Token[] memory path = new IERC20Token[](3);
+        IERC20Token[] memory path = new IERC20Token[](5);
         ISmartToken myBit = ISmartToken(0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC); 
+        ISmartToken bnt = ISmartToken(0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C);
         uint amount = _amount;
         uint value = 0;
         if (msg.value == 0){
@@ -41,8 +42,10 @@ contract TokenConverter {
             value = msg.value;
         }
         path[0] = token;
-        path[1] = myBit;
-        path[2] = myBit;
+        path[1] = bnt;
+        path[2] = bnt;
+        path[3] = myBit;
+        path[4] = myBit;
         uint myBitBalanceBefore = myBit.balanceOf(this);
         uint convertedValue = bancorNetwork.convert.value(value)(
             path,
