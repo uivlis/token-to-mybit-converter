@@ -1,20 +1,20 @@
 pragma solidity 0.4.24;
 
-import "bancor-contracts/solidity/contracts/BancorNetwork.sol";
-import "bancor-contracts/solidity/contracts/token/EtherToken.sol";
+import "bancor-contracts/solidity/contracts/IBancorNetwork.sol";
+import "bancor-contracts/solidity/contracts/token/interfaces/IEtherToken.sol";
 import "bancor-contracts/solidity/contracts/token/interfaces/IERC20Token.sol";
-import "bancor-contracts/solidity/contracts/token/SmartToken.sol";
+import "bancor-contracts/solidity/contracts/token/interfaces/ISmartToken.sol";
 
 
 ///@title A contract for converting any token into MYB (using Bancor's API)
 ///@author Vlad Silviu Farcas
 contract TokenConverter {
 
-    BancorNetwork bancorNetwork;
+    IBancorNetwork bancorNetwork;
 
     ///@notice initialise addresses needed for conversion
     constructor() {
-        bancorNetwork = BancorNetwork(0xF20b9e713A33F61fA38792d2aFaF1cD30339126A);
+        bancorNetwork = IBancorNetwork(0xF20b9e713A33F61fA38792d2aFaF1cD30339126A);
     }
 
     ///@notice convert some tokens
@@ -28,16 +28,15 @@ contract TokenConverter {
         ) external payable {
         IERC20Token token;
         IERC20Token[] memory path = new IERC20Token[](3);
-        SmartToken myBit = SmartToken(0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC); 
+        ISmartToken myBit = ISmartToken(0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC); 
         uint amount = _amount;
         uint value = 0;
         if (msg.value == 0){
-            require(bancorNetwork.etherTokens(_token) == true, "Token not supported");
-            token = SmartToken(_token);
-            token.transferFrom(msg.sender, this, amount);
+            token = ISmartToken(_token);
+            token.transferFrom(msg.sender, bancorNetwork, amount);
             token.approve(bancorNetwork, amount); 
         } else {
-            token = EtherToken(0xc0829421C1d260BD3cB3E0F06cfE2D52db2cE315);
+            token = IEtherToken(0xc0829421C1d260BD3cB3E0F06cfE2D52db2cE315);
             amount = msg.value;
             value = msg.value;
         }
